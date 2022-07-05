@@ -4,29 +4,29 @@ Compiler with a virtual machine designed to compileand execute contract code for
 
 
 #### Parameters
-`--no-abi <none>` = Отключение перед компиляцией формирование интерфейса взаимодействия
+`--no-abi <none>` = Disabling before compilation the formation of the interaction interface
 
-`--no-bytecode <none>` = Отключение перед компиляцией формирование байт - кода
+`--no-bytecode <none>` = Disable before compilation bytecode generation
 
-`--compile-project <none>` = Включение компиляции всех файлов в каталоге
+`--compile-project <none>` = Including all files in a directory in the compilation process
 
-`--debug <all, compile>` = Вывод всей сопутствующей информации о компиляци
+`--debug <all, compile>` = Verbose output of all compilation information
 
-`--ignore <1 - 2 - 3>` = Игнорирование предупреждений уровня 1 - 2 - 3
+`--ignore <1-2-3>` = Disable ignoring level 1-2-3 warnings
 
 
 #### Flags
-`-abi <max, min>` = Определяет уровень информирования интерфейса
+`-abi <max, min>` = Determining the information level of an interface
 
-`-optimize <0 - 1000>` = Оптимизирует машинный-код в указанное количество проходов
+`-optimize <0 - 1000>` = Native-Code Optimization Definition (Number of Passes)
 
-`-c <none>` = Компиляция в 2 прохода
+`-c <none>` = Compilation in 2 passes
 
-`-format <none>` = Форматирует написанный код
+`-format <none>` = Code formating
 
-`-i <path> <none>` = Путь к файлу / каталогу компиляции
+`-i <path> <none>` = Compilation file/directory path
 
-`-o <path> <none>` = Путь к скомпилированному коду
+`-o <path> <none>` = Path to compiled code
 
 
 
@@ -41,21 +41,21 @@ Compiler with a virtual machine designed to compileand execute contract code for
 
 `--no-bytecode <none>` = Отключение перед компиляцией формирование байт - кода
 
-`--compile-project <none>` = Включение компиляции всех файлов в каталоге
+`--compile-project <none>` = Включение в процесс компилирования всех файлов в каталоге
 
-`--debug <all, compile>` = Вывод всей сопутствующей информации о компиляци
+`--debug <all, compile>` = Подробный вывод всей информации о компиляции
 
-`--ignore <1 - 2 - 3>` = Игнорирование предупреждений уровня 1 - 2 - 3
+`--ignore <1-2-3>` = Игнорирование предупреждений уровня 1-2-3
 
 
 #### Флаги
-`-abi <max, min>` = Определяет уровень информирования интерфейса
+`-abi <max, min>` = Определение уровня информирования интерфейса
 
 `-optimize <0 - 1000>` = Оптимизирует байт - код в указанное количество проходов
 
 `-c <none>` = Компиляция в 2 прохода
 
-`-format <none>` = Форматирует написанный код
+`-format <none>` = Форматированние кода
 
 `-i <path> <none>` = Путь к файлу / каталогу компиляции
 
