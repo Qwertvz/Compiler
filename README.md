@@ -1,17 +1,18 @@
 ## `Contract Code Compiler`[EN]
-A compiler with a virtual machine designed to compileand execute contract code for the Eata blockchain project environment.
+Compiler with a virtual machine designed to compileand execute contract code for the Eata blockchain project environment.
+
 
 
 #### Parameters
-`- - no - abi <none>` = Отключение перед компиляцией формирование интерфейса взаимодействия
+`--no-abi <none>` = Отключение перед компиляцией формирование интерфейса взаимодействия
 
-`- - no - bytecode <none>` = Отключение перед компиляцией формирование байт - кода
+`--no-bytecode <none>` = Отключение перед компиляцией формирование байт - кода
 
-`- - compile - project <none>` = Включение компиляции всех файлов в каталоге
+`--compile-project <none>` = Включение компиляции всех файлов в каталоге
 
-`- - debug <all, compile>` = Вывод всей сопутствующей информации о компиляци
+`--debug <all, compile>` = Вывод всей сопутствующей информации о компиляци
 
-`- - ignore <1 - 2 - 3>` = Игнорирование предупреждений уровня 1 - 2 - 3
+`--ignore <1 - 2 - 3>` = Игнорирование предупреждений уровня 1 - 2 - 3
 
 
 #### Flags
@@ -36,15 +37,15 @@ A compiler with a virtual machine designed to compileand execute contract code f
 
 
 #### Параметры
-`- - no - abi <none>` = Отключение перед компиляцией формирование интерфейса взаимодействия
+`--no-abi <none>` = Отключение перед компиляцией формирование интерфейса взаимодействия
 
-`- - no - bytecode <none>` = Отключение перед компиляцией формирование байт - кода
+`--no-bytecode <none>` = Отключение перед компиляцией формирование байт - кода
 
-`- - compile - project <none>` = Включение компиляции всех файлов в каталоге
+`--compile-project <none>` = Включение компиляции всех файлов в каталоге
 
-`- - debug <all, compile>` = Вывод всей сопутствующей информации о компиляци
+`--debug <all, compile>` = Вывод всей сопутствующей информации о компиляци
 
-`- - ignore <1 - 2 - 3>` = Игнорирование предупреждений уровня 1 - 2 - 3
+`--ignore <1 - 2 - 3>` = Игнорирование предупреждений уровня 1 - 2 - 3
 
 
 #### Флаги
